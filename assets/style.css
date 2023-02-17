@@ -353,5 +353,17 @@ input[type="submit"] {
 		width: 100%;
 		height: 350px;
 	}
+	.imagecam{
+		width: 100%;
+		height: 186px;
+	}
+	.logoinsta{
+			width: 20px;
+			height: 20px;
+	}
+	.autoport{
+		width: 100%;
+		height: 255px;
+	}
 }
 
