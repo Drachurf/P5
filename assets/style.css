@@ -105,15 +105,21 @@ h2{
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active {
-	color: #fff;
-	background-color: #383200b7;
-	border-radius:0 ;
-}
 
 .nav-pills .nav-link {
-	color: #000
+	cursor: pointer;
+	color: #000;
 }
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: #81771d;
+	border-radius:0 ;
+}
+.nav-pills .active-tag, .nav-pills .show > .active-tag {
+	color: #ffffff;
+	background-color: #81771d;
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
