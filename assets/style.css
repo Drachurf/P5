@@ -2,16 +2,19 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
-
 * {
 	font-family: 'Inter';
 	font-style: normal;
 }
 
+h3, h2{
+	padding-top: 2%;
+	display : flex;
+	justify-content: center
+}
 html {
 	scroll-padding-top: 3em;
 }
-
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -48,14 +51,6 @@ html {
 	padding-inline: 8px;
 }
 
-.navbar-a {
-	padding: 10px;
-}
-
-.navbar-a:hover {
-	background-color: #BEB45A;
-    border-radius: 0.25rem;
-}
 
 .social-link img {
 	width: 20px;
@@ -124,15 +119,14 @@ html {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	/* color: #fff; */
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
-
-.active-tag {
+.nav-pills .active-tag, .nav-pills .show > .active-tag {
 	background-color: #BEB45A;
-	/* color: white; */
 }
+
 
 .nav-pills .nav-link {
 	color: #000
@@ -308,9 +302,12 @@ input[type="submit"] {
 	#about-me h3, #about-me p {
 		width: 100%;
 	}
-	/* end of addition*/
 	#about{
 		flex-direction: column;
+	}
+	.carousel-item img{
+		width: 100%;
+		height: 180px;
 	}
 
 	.picture {
