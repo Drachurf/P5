@@ -175,10 +175,7 @@ html {
 	margin: auto;
 	padding-block: 3em;
 }
-.carousel-item img{
-	width: auto;
-	height: auto;
-}
+
 
 .quote__text {
 	font-family: Spectral;
@@ -410,5 +407,20 @@ input[type="submit"] {
 
 	.picture {
 		width: 80%;
+	}
+	.gallery img{
+		width: 370px;
+		height: 370px;
+		display: flex;
+
+	}
+	.autoportrait{
+		width: 250px;
+		height: 250px;
+
+	}
+	.d-block{
+		width: 100%;
+		height: 180px;
 	}
 }
