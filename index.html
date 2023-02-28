@@ -1,13 +1,14 @@
 	<!DOCTYPE html>
-	<html lang="fr">
+	<html lang="fr" itemscope itemtype="http://schema.org/Article">
 	<head>
-		<!-- Update your html tag to include the itemscope and itemtype attributes. -->
-	<html itemscope itemtype="http://schema.org/Article">
-
+		<meta charset="utf-8">
 	<!-- Place this data between the <head> tags of your website -->
 	<title>Nina Carducci - Photographe</title>
-	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux." />
-
+	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux.">
+	<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="./assets/maugallery.js"></script>
+	<script src="./assets/scripts.js"></script>
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@publisher_handle">
@@ -19,31 +20,29 @@
 	<meta name="twitter:image:src" content="assets/images/nina.webp">
 
 	<!-- Open Graph data -->
-	<meta property="og:title" content="Nina Carducci - Photographe" />
-	<meta property="og:type" content="Nina Carducci, photographe professionnelle à Bordeaux" />
-	<meta property="og:url" content="https://ninacarducci.github.io/"/>
-	<meta property="og:image" content="assets/images/nina.webp" />
-	<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux" />
-	<meta property="og:site_name" content="Nina Carducci photographe" />
-	<meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
-	<meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />
-	<meta property="article:section" content="Article Section" />
-	<meta property="article:tag" content="Article Tag" />
-	<meta property="fb:admins" content="Facebook numberic ID" />
-		<meta name="description" content="Le site de Nina Carducci vous présentant son portfolio et ses tarifs. Vous trouverez également un espace de contact en bas de page.">
+	<meta property="og:title" content="Nina Carducci - Photographe">
+	<meta property="og:type" content="Nina Carducci, photographe professionnelle à Bordeaux">
+	<meta property="og:url" content="https://ninacarducci.github.io">
+	<meta property="og:image" content="assets/images/nina.webp">
+	<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux">
+	<meta property="og:site_name" content="Nina Carducci photographe">
+	<meta property="article:published_time" content="2013-09-17T05:59:00+01:00">
+	<meta property="article:modified_time" content="2013-09-16T19:08:47+01:00">
+	<meta property="article:section" content="Article Section">
+	<meta property="article:tag" content="Article Tag">
+	<meta property="fb:admins" content="Facebook numberic ID">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="./assets/style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-		<meta charset="UTF-8">
-		<meta property="og:title" content="Nina Carducci - photogrape !"/>
-		<meta property="og:type" content="article" />
-		<meta property="og:url" content="https://ninacarducci.github.io/"/>
-		<meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer"/>
-		<meta property="author" content="Nina Carducci" />
-		<meta property="og:image" content="assets/images/nina-mobile.webp" />
+		<meta property="og:title" content="Nina Carducci - photogrape !">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="https://ninacarducci.github.io/">
+		<meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer">
+		<meta property="author" content="Nina Carducci" >
+		<meta property="og:image" content="assets/images/nina-mobile.webp">
 
 	<script type="application/ld+json">
 			{
@@ -72,7 +71,7 @@
 				<li><a href="#gallery">Galerie</a></li>
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" height="20px" width="20px" class="logoinsta" alt="Lien vers instagram"></a></li>
+				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" class="logoinsta" alt="Lien vers instagram"></a></li>
 			</ul>
 		</div>
 		
@@ -108,7 +107,7 @@
 	</div>
 	<div id="about">
 		<div class="picture left">
-			<img src="assets/images/nina.webp" width="375" height="375" class="autoportrait"  alt="autoportrait de Nina">
+			<img src="assets/images/nina.webp" width="370" height="370" class="autoportrait"  alt="autoportrait de Nina">
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
@@ -201,13 +200,9 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="assets/images/camera.webp" 	width="550px" height="550px" class="imagecam" alt="Photo d'un appareil photo">
+				<img src="assets/images/camera.webp" class="imagecam" alt="Photo d'un appareil photo">
 			</div>
 		</div>
 	</div>
 	</body>
-	<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
 	</html>
