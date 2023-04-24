@@ -10,3 +10,9 @@ Objectifs :
 - Faire les modifications liées à l’accessibilité du site.
 - Produire un rapport d’optimisation présentant toutes vos actions et leur impact.
 - Debug de la galerie (navigation et filtre).
+
+
+Compétences : 
+- optimiser les performances d'un site web.
+- Débugger un site web avec Chrome DevTools.
+- Rédiger un cahier de recette pour tester un site.
